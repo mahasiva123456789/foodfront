@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/cbe", "destination": "/index.html" },
+    { "source": "/trichy", "destination": "/index.html" },
+    { "source": "/namakkal", "destination": "/index.html" }
+  ]
+}
