@@ -15,19 +15,27 @@ const Nav = () => {
 
   const handleSearch = () => {
     const selectedLocation = document.getElementById('locationselect').value;
+    // if (selectedLocation === "coimbatore") {
+    //   window.location.href = '/Cbe';
+    // } else if (selectedLocation === "trichy") {
+    //   window.location.href = '/trichy';
+    // } 
+    // else if (selectedLocation === "namakal") {
+    //   window.location.href = '/namakkal';
+    // }
     if (selectedLocation === "coimbatore") {
-      window.location.href = '/Cbe';
-    } else if (selectedLocation === "trichy") {
-      window.location.href = '/trichy';
-    } 
-    else if (selectedLocation === "namakal") {
-      window.location.href = '/namakkal';
-    }
-    
+  window.location.href = '/cbe';  
+} else if (selectedLocation === "trichy") {
+  window.location.href = '/trichy';
+} else if (selectedLocation === "namakal") {
+  window.location.href = '/namakkal';
+}
+
     else {
       alert('Select the Location');
     }
   };
+  
 
   const [position, setPosition] = useState(0);
   const [direction, setDirection] = useState(1);
