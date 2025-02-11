@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/cbe", "destination": "/" },
+    { "source": "/trichy", "destination": "/" },
+    { "source": "/namakkal", "destination": "/" },
+    { "source": "/:path*", "destination": "/" }
+  ]
+}
